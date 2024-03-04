@@ -27,7 +27,11 @@ body{
 
 .form_content,input{
     width: 400px;
-    outline-color: red;
+}
+
+input:focus{
+    outline-color: brown;
+    box-shadow: 3px 4px 5px rgb(143, 71, 66, 0.5);
 }
 
 
@@ -59,11 +63,11 @@ input{
 }
 input[type="submit"]{
     color: white;
-    background-color: #09218f;
-    border-radius: 20px;
-    border-color: #09218f;
+    background-color: blue;
+    border-radius: 5px;
     margin-bottom: 30px;
     margin-top: 15px;
+    border: none;
 }
 
 input[type="submit"]:hover{
