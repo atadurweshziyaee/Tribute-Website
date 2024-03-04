@@ -58,8 +58,7 @@ input{
 }
 
 .form_button, p {
-    padding:12px 400px 12px 53.9px;
-
+    padding:12px 400px 0px 53.9px;
 }
 input[type="submit"]{
     color: white;
@@ -72,4 +71,19 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     background-color: #4f69e0;
+}
+
+.link a{
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+}
+.link, a2{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+}
+.link{
+    font-size: 20px;
+    color:black;
 }
